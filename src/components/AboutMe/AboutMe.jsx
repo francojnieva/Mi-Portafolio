@@ -13,9 +13,10 @@ export const AboutMe = () => {
 					duration: 0.8,
 					ease: "easeInOut",
 				}}
-				className="pt-72 bg-gradient-to-br from-[#B0E2EF] to-[#fff] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+				id='aboutMe'
+				className="pt-64 bg-gradient-to-br from-[#B0E2EF] to-[#fff] py-4 bg-clip-text text-center text-5xl font-medium tracking-tight text-transparent md:text-7xl"
 			>
-				Build lamps <br /> the right way
+				Bienvenido <br />
 			</motion.h1>
 		</LampContainer>
     )
@@ -28,7 +29,7 @@ export const LampContainer = ({
 	return (
 	  <div
 		className={cn(
-		  "relative pt-44 flex flex-col items-center justify-center overflow-hidden w-full rounded-md z-0",
+		  "relative pt-[11.3rem] flex flex-col items-center justify-center overflow-hidden w-full rounded-md z-0 lg:pt-[9rem]",
 		  className
 		)}
 	  >
@@ -76,7 +77,7 @@ export const LampContainer = ({
 			  duration: 0.8,
 			  ease: "easeInOut",
 			}}
-			className="absolute inset-auto z-30 h-36 w-64 -translate-y-[6rem] rounded-full bg-cyan-400 blur-2xl"
+			className="absolute inset-auto z-30 h-36 w-64 -translate-y-[6rem] bg-black rounded-full  blur-3xl"
 		  ></motion.div>
 		  <motion.div
 			initial={{ width: "15rem" }}

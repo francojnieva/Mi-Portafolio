@@ -1,11 +1,13 @@
 import React from 'react'
-import { motion } from "framer-motion";
-import { cn } from "../../utils/cn";
+import CardProject from '../CardProject/CardProject';
 
 const Projects = () => {
 	return (
-		<section>
-			<h2 className='text-3xl font-medium text-center bg-gradient-to-r from-[#3cd8ff] to-[#fff] bg-clip-text text-transparent md:text-4xl md:py-3 lg:text-5xl'>Proyectos</h2>
+		<section id='projects' className='px-6 lg:w-[85%] lg:mx-auto lg:px-0'>
+			<h2 className='text-4xl font-bold text-center bg-gradient-to-br from-[#40f7ed] to-[#96e9e9] bg-clip-text text-transparent py-3 lg:text-5xl'>Proyectos</h2>
+			<section className='py-8 grid items-center grid-cols-1 gap-8 md:grid-cols-3 lg:py-12'>
+				<CardProject />
+			</section>
 
 		</section>
 	)

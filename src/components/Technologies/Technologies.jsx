@@ -12,11 +12,15 @@ import IconTrello from './assets/trello.svg'
 import IconGit from './assets/git.svg'
 import IconGitHub from './assets/github.svg'
 import IconScrum from './assets/scrum.png'
+import IconExpress from './assets/express.js.svg'
+import IconMongoDB from './assets/mongo-db.png'
+import IconPostman from './assets/postman.png'
+import IconFirebase from './assets/firebase-.svg'
 
 const Technologies = () => {
     return (
-        <section className='pt-20 px-6 lg:w-[85%] lg:mx-auto lg:px-0'>
-            <h2 className='text-3xl font-medium text-center bg-gradient-to-r from-[#3cd8ff] to-[#fff] bg-clip-text text-transparent md:text-4xl md:py-3 lg:text-5xl'>Tecnologías</h2>
+        <section id='hability' className='px-6 lg:w-[85%] lg:mx-auto lg:px-0'>
+            <h2 className='text-4xl font-bold text-center bg-gradient-to-br from-[#40f7ed] to-[#96e9e9] bg-clip-text text-transparent py-3 lg:text-5xl'>Habilidades y Conocimientos</h2>
             <section className='py-8 grid items-center grid-cols-2 gap-8 md:grid-cols-4 lg:gap-12 lg:py-12'>
                 <CardTechnology
                     icon={IconReact}
@@ -27,20 +31,8 @@ const Technologies = () => {
                     name='JavaScript' 
                 />
                 <CardTechnology
-                    icon={IconNode}
-                    name='Node JS' 
-                />
-                <CardTechnology
-                    icon={IconTS}
-                    name='TypeScript' 
-                />
-                <CardTechnology
                     icon={IconTailwind}
-                    name='Tailwind' 
-                />
-                <CardTechnology
-                    icon={IconBootstrap}
-                    name='Bootstrap' 
+                    name='Tailwind CSS' 
                 />
                 <CardTechnology
                     icon={IconGit}
@@ -51,12 +43,40 @@ const Technologies = () => {
                     name='GitHub'
                 />
                 <CardTechnology
+                    icon={IconNode}
+                    name='Node JS' 
+                />
+                <CardTechnology
+                    icon={IconTS}
+                    name='TypeScript' 
+                />
+                <CardTechnology
+                    icon={IconBootstrap}
+                    name='Bootstrap' 
+                />
+                <CardTechnology
+                    icon={IconExpress}
+                    name='Express JS'
+                />
+                <CardTechnology
+                    icon={IconMongoDB}
+                    name='Mongo DB'
+                />
+                <CardTechnology
                     icon={IconHtml}
                     name='HTML5' 
                 />
                 <CardTechnology
                     icon={IconCss}
                     name='CSS3' 
+                />
+                <CardTechnology
+                    icon={IconPostman}
+                    name='Postman' 
+                />
+                <CardTechnology
+                    icon={IconFirebase}
+                    name='Firebase' 
                 />
                 <CardTechnology
                     icon={IconTrello}

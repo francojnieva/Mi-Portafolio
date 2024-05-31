@@ -10,10 +10,10 @@ const Footer = () => {
 			<section>
 				<h6 className="text-lg text-[#fff] mb-4">Página</h6>
 				<nav className=' flex flex-col space-y-6 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-8'>
-					<a className="hover:text-[#fff] text-base transition-all">Inicio</a>
-					<a className="hover:text-[#fff] text-base transition-all">Sobre mí</a>
-					<a className="hover:text-[#fff] text-base transition-all">Tecnologías</a>
-					<a className="hover:text-[#fff] text-base transition-all">Proyectos</a>
+					<a href='#home' className="hover:text-[#fff] text-base transition-all">Inicio</a>
+					<a href='#aboutMe' className="hover:text-[#fff] text-base transition-all">Sobre mí</a>
+					<a href='#hability' className="hover:text-[#fff] text-base transition-all">Habilidades y Conocimientos</a>
+					<a href='#projects' className="hover:text-[#fff] text-base transition-all">Proyectos</a>
 				</nav>
 			</section>
 			<section className=" flex flex-col-reverse w-full lg:flex-row justify-between lg:items-center">
