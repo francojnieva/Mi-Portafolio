@@ -18,14 +18,14 @@ const CardProject = () => {
                                         project && project.technologies.map((tech, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <img className='w-6' src={tech} />
+                                                    <img className='w-6 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer' src={tech} />
                                                 </li>
                                             )
                                         })
                                     }
                                 </ul>
                                 <div className="card-actions">
-                                    <button className="py-3 px-5 rounded-md text-white font-medium bg-gradient-to-r from-[#00eeffee] to-[#00A2FF] xl:text-base">
+                                    <button className="py-2 px-4 rounded-md text-white font-medium bg-gradient-to-r from-[#00eeffee] to-[#00A2FF] xl:text-base">
                                         <a href={project.repo} target='_blanck'>Repositorio</a>
                                     </button>
                                 </div>

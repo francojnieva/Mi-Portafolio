@@ -21,10 +21,10 @@ const Footer = () => {
 					<p>Copyright © 2024 - All right reserved</p>
 				</aside>
 				<nav className=" flex items-baseline space-x-4 text-xl lg:text-2xl">
-					<a className='hover:text-[#fff] transition duration-500 ease-out' href='#' target='_blanck'><FaLinkedin /></a>
-					<a className='hover:text-[#fff] transition duration-500 ease-out' href='#' target='_blanck'><FaGithub /></a>
-					<a className='hover:text-[#fff] transition duration-500 ease-out' href='#' target='_blanck'><RiInstagramFill /></a>
-					<a className='hover:text-[#fff] transition duration-500 ease-out' href='#' target='_blanck'><MdEmail /></a>
+					<a className='hover:text-[#fff] transition duration-500 ease-out' href='https://www.linkedin.com/in/francojnieva/' target='_blanck'><FaLinkedin /></a>
+					<a className='hover:text-[#fff] transition duration-500 ease-out' href='https://github.com/francojnieva' target='_blanck'><FaGithub /></a>
+					<a className='hover:text-[#fff] transition duration-500 ease-out' href='https://instagram.com/franconieva.97' target='_blanck'><RiInstagramFill /></a>
+					<a className='hover:text-[#fff] transition duration-500 ease-out' href='mailto:franco97nieva@gmail.com' target='_blanck'><MdEmail /></a>
 				</nav>
 			</section>
 		</footer>

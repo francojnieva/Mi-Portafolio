@@ -10,13 +10,18 @@ import IconGitHub from '../components/Technologies/assets/github.svg'
 import IconExpress from '../components/Technologies/assets/express.js.svg'
 import IconMongoDB from '../components/Technologies/assets/mongo-db.png'
 import IconFirebase from '../components/Technologies/assets/firebase-.svg'
+import ImageClonSpotify from '../components/Projects/assets/clon-spotify.png'
+import ImageRoyal from '../components/Projects/assets/royal.png'
+import ImageMotofly from '../components/Projects/assets/motofly.png'
+import ImageNetflix from '../components/Projects/assets/netflix.png'
+import ImageSaludIntegral from '../components/Projects/assets/salud-integral-psi.png'
 
 
 export const projects = [
     {
         name: 'Clon Spotify Web',
-        description: 'Este proyecto es un clon de la versión web de Spotify, desarrollado con React.js y Tailwind CSS. Utiliza la API web proporcionada por Spotify para obtener datos como artistas populares, álbumes populares, canciones y más.',
-        image: './assets/spotify.png',
+        description: 'Este proyecto es un clon de la versión web de Spotify, desarrollado con React JS y Tailwind CSS. Utiliza la API web proporcionada por Spotify para obtener datos como artistas populares, álbumes populares, canciones y muchos más.',
+        image: ImageClonSpotify,
         textAlt: 'imagen de portada del Clon Spotify Web',
         titleImg: 'Clon Spotify Web',
         technologies: [
@@ -29,8 +34,8 @@ export const projects = [
     },
     {
         name: 'Royal',
-        description:'Proyecto Final realizado en el curso de React JS en Coder House. Este e-commerce muestra una gran variedad de relojes. Utiliza Firebase Firestore como base de datos para almacenar y recuperar información sobre los productos.',
-        image: './assets/royal.png',
+        description:'Proyecto final realizado en el curso de React JS en CoderHouse. Este e-commerce muestra una gran variedad de relojes. Utiliza Firebase como base de datos para almacenar y recuperar información sobre los productos. Proyecto destacado de la comisión.',
+        image: ImageRoyal,
         textAlt: 'imagen de portada de royal',
         titleImg: 'Royal',
         technologies: [
@@ -43,8 +48,8 @@ export const projects = [
     },
     {
         name: 'MotoFly',
-        description: 'E-commerce desarrollado por 5 integrantes durante el curso en Rolling Code School. Además del stack MERN, usamos Git para controlar versiones de código, Trello para gestionar tareas y SCRUM como marco de trabajo ágil.',
-        image: './assets/motofly.png',
+        description: 'E-commerce desarrollado por 5 integrantes para el proyecto final en Rolling Code School. Además del stack MERN, usamos Git para controlar versiones de código, Trello para gestionar tareas y SCRUM como marco de trabajo ágil.',
+        image: ImageMotofly,
         textAlt: 'imagen de portada de MotoFly',
         titleImg: 'MotoFly',
         technologies: [
@@ -56,23 +61,9 @@ export const projects = [
         repo: 'https://github.com/ErikaCV/proyecto-final.git'
     },
     {
-        name: 'Movie Pulse',
-        description: 'Aplicación que permite a los usuarios crear cuentas, iniciar sesión, explorar información sobre las películas y agregarlas a favoritos. Desarrollada por un equipo multidisciplinario durante la simulación laboral en No Country.',
-        image: './assets/movie-pulse.png',
-        textAlt: 'imagen de portada de Movie Pulse',
-        titleImg: 'Movie Pulse',
-        technologies: [
-            IconReact,
-            IconTailwind,
-            IconGit,
-            IconTrello,
-        ],
-        repo: 'https://github.com/No-Country/C16-39-m-java.git'
-    },
-    {
         name: 'Salud Integral Psi',
         description: 'Desarrollado para un equipo interdisciplinario en el Área de Salud y Salud Mental en el Sistema público y privado. Asesoran y capacitan en Salud Mental, Discapacidad Intelectual y Rehabilitación Psicosocial.',
-        image: './assets/salud-integral.png',
+        image: ImageSaludIntegral,
         textAlt: 'imagen de portada del proyecto Salud Integral Psi',
         titleImg: 'Salud Integral Psi',
         technologies: [
@@ -86,7 +77,7 @@ export const projects = [
     {
         name: 'Clon Netflix',
         description: 'Proyecto realizado con el propósito de recrear la página principal y de inicio de sesión de Netflix con Tailwind CSS. Además de poder visualizar el sitio en dispositivos grandes, tambíen puede verse en dispositivos móviles y tablets.',
-        image: './assets/clon-netflix.png',
+        image: ImageNetflix,
         textAlt: 'imagen de portada del proyecto Clon Netflix',
         titleImg: 'Clon Netflix',
         technologies: [

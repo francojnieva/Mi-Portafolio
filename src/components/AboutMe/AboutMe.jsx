@@ -1,101 +1,44 @@
 import React from 'react'
-import { motion } from "framer-motion";
-import { cn } from "../../utils/cn";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
 
-export const AboutMe = () => {
+const AboutMe = () => {
     return (
-        <LampContainer>
-			<motion.h1
-				initial={{ opacity: 0.5, y: 100 }}
-				whileInView={{ opacity: 1, y: 0 }}
-				transition={{
-					delay: 0.3,
-					duration: 0.8,
-					ease: "easeInOut",
-				}}
-				id='aboutMe'
-				className="pt-64 bg-gradient-to-br from-[#B0E2EF] to-[#fff] py-4 bg-clip-text text-center text-5xl font-medium tracking-tight text-transparent md:text-7xl"
-			>
-				Bienvenido <br />
-			</motion.h1>
-		</LampContainer>
+        <section className='font-medium -mt-40 pb-3 text-lg space-y-6 text-[#808080] px-6 lg:pb-28 lg:w-[85%] lg:mx-auto lg:px-0 lg:-mt-32 lg:text-xl'>
+            <h1>Soy<span className=' text-[#00A2FF] font-bold'> Franco Javier Nieva </span>, de la provincia de Tucumán, Argentina. Apasionado por la tecnología, con un enfoque especial en el desarrollo web Frontend.</h1>
+            <p>Responsable, organizado y empático, con un fuerte compromiso hacia el trabajo en equipo y una actitud proactiva hacia el aprendizaje continuo.</p>
+            <p>Me apasiona la creatividad y la resolución de problemas que implica el desarrollo Frontend. Estoy siempre dispuesto a enfrentar nuevos desafíos con entusiasmo y determinación.</p>
+            <h4 className=' text-base link'>Contáctame:</h4>
+            <div className='relative py-3 text-[#a0a0a0] text-xl flex justify-start space-x-4 items-center lg:text-2xl'>
+                <a href='https://www.linkedin.com/in/francojnieva/' className="group flex justify-center transition-all">
+                    <FaLinkedin />
+                    <span
+                        className="absolute text-[#4ca8f3] opacity-0 group-hover:opacity-100 group-hover:-translate-y-7 duration-700 text-sm">LinkedIn
+                    </span>
+                </a>
+                <a href='https://github.com/francojnieva' className="group flex justify-center transition-all">
+                    <FaGithub />
+                    <span
+                        className="absolute text-[#fff] opacity-0 group-hover:opacity-100 group-hover:-translate-y-7 duration-700 text-sm">GitHub
+                    </span>
+                </a>
+                <a href='mailto:franco97nieva@gmail.com' className="group flex justify-center transition-all">
+                    <MdEmail />
+                    <span
+                        className="absolute text-[#ec4444] opacity-0 group-hover:opacity-100 group-hover:-translate-y-7 duration-700 text-sm">Gmail
+                    </span>
+                </a>
+                <a href='https://instagram.com/franconieva.97' className="group flex justify-center transition-all">
+                    <RiInstagramFill />
+                    <span
+                        className="absolute text-[#c930c1] opacity-0 group-hover:opacity-100 group-hover:-translate-y-7 duration-700 text-sm">Instagram
+                    </span>
+                </a>
+            </div>
+        </section>
     )
 }
 
-export const LampContainer = ({
-	children,
-	className,
-  }) => {
-	return (
-	  <div
-		className={cn(
-		  "relative pt-[11.3rem] flex flex-col items-center justify-center overflow-hidden w-full rounded-md z-0 lg:pt-[9rem]",
-		  className
-		)}
-	  >
-		<div className="relative flex flex-1 scale-y-100 items-center justify-center isolate z-0 ">
-		  <motion.div
-			initial={{ opacity: 0.5, width: "15rem" }}
-			whileInView={{ opacity: 1, width: "50rem" }}
-			transition={{
-			  delay: 0.3,
-			  duration: 0.8,
-			  ease: "easeInOut",
-			}}
-			style={{
-			  backgroundImage: `conic-gradient(var(--conic-position), var(--tw-gradient-stops))`,
-			}}
-			className="absolute inset-auto right-1/2 h-56 overflow-visible w-[30rem] bg-gradient-conic from-cyan-500 via-transparent to-transparent text-white [--conic-position:from_70deg_at_center_top]"
-		  >
-			<div className="absolute  w-[100%] left-0  h-40 bg-black bottom-0 z-20 [mask-image:linear-gradient(to_top,white,transparent)]" />
-			<div className="absolute  w-40 h-[100%] left-0 bg-black  bottom-0 z-20 [mask-image:linear-gradient(to_right,white,transparent)]" />
-		  </motion.div>
-		  <motion.div
-			initial={{ opacity: 0.5, width: "15rem" }}
-			whileInView={{ opacity: 1, width: "50rem" }}
-			transition={{
-			  delay: 0.3,
-			  duration: 0.8,
-			  ease: "easeInOut",
-			}}
-			style={{
-			  backgroundImage: `conic-gradient(var(--conic-position), var(--tw-gradient-stops))`,
-			}}
-			className="absolute inset-auto left-1/2 h-56 w-[30rem] bg-gradient-conic from-transparent via-transparent to-cyan-500 text-white [--conic-position:from_290deg_at_center_top]"
-		  >
-			<div className="absolute w-40 h-[100%] right-0 bg-black  bottom-0 z-20 [mask-image:linear-gradient(to_left,white,transparent)]" />
-			<div className="absolute  w-[100%] right-0 bg-black h-40 bottom-0 z-20 [mask-image:linear-gradient(to_top,white,transparent)]" />
-		  </motion.div>
-		  <div className="absolute top-1/2 h-48 w-full translate-y-12 scale-x-150  bg-black blur-2xl"></div>
-		  <div className="absolute top-1/2 z-50 h-48 w-full bg-transparent  opacity-10 backdrop-blur-md"></div>
-		  <div className="absolute inset-auto z-50 h-36 w-[28rem] bg-black  -translate-y-1/2 rounded-full  opacity-50 blur-3xl"></div>
-		  <motion.div
-			initial={{ width: "8rem" }}
-			whileInView={{ width: "20rem" }}
-			transition={{
-			  delay: 0.3,
-			  duration: 0.8,
-			  ease: "easeInOut",
-			}}
-			className="absolute inset-auto z-30 h-36 w-64 -translate-y-[6rem] bg-black rounded-full  blur-3xl"
-		  ></motion.div>
-		  <motion.div
-			initial={{ width: "15rem" }}
-			whileInView={{ width: "50rem" }}
-			transition={{
-			  delay: 0.3,
-			  duration: 0.8,
-			  ease: "easeInOut",
-			}}
-			className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 "
-		  ></motion.div>
-   
-		  <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-black"></div>
-		</div>
-   
-		<div className="relative z-50 flex -translate-y-80 flex-col items-center px-5">
-		  {children}
-		</div>
-	  </div>
-	);
-  };
+export default AboutMe

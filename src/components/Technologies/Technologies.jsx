@@ -19,8 +19,8 @@ import IconFirebase from './assets/firebase-.svg'
 
 const Technologies = () => {
     return (
-        <section id='hability' className='px-6 lg:w-[85%] lg:mx-auto lg:px-0'>
-            <h2 className='text-4xl font-bold text-center bg-gradient-to-br from-[#40f7ed] to-[#96e9e9] bg-clip-text text-transparent py-3 lg:text-5xl'>Habilidades y Conocimientos</h2>
+        <section id='hability' className='px-6 pt-20 lg:pt-0 lg:w-[85%] lg:mx-auto lg:px-0'>
+            <h2 className='text-4xl font-bold text-center text-[#8c8f8f] py-3 lg:text-5xl'>Habilidades y Conocimientos</h2>
             <section className='py-8 grid items-center grid-cols-2 gap-8 md:grid-cols-4 lg:gap-12 lg:py-12'>
                 <CardTechnology
                     icon={IconReact}
