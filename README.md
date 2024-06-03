@@ -1,8 +1,13 @@
-# React + Vite
+# Portafolio 
+Este es el repositorio de mi portafolio personal, desarrollado con React JS y Tailwind CSS. Podrás conocer más sobre mí, las tecnologías que uso habitualmente como Desarrollador Web y los proyectos que he realizado. 
+Es completamente adaptable a dispositivos móviles, tablets y desktop.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![313shots-so.png](https://i.postimg.cc/3wSdSL0C/313shots-so.png)](https://postimg.cc/4KcfnQ5m)
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
+![ReactJS](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ver portafolio
+Haz clic [aquí]() ✨
+
+
