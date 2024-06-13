@@ -18,6 +18,9 @@ import IconFigma from '../assets/figma.svg'
 import IconSlack from '../assets/slack.svg'
 import IconNpm from '../assets/npm.svg'
 import IconZoom from '../assets/zoom.svg'
+import IconVSC from '../assets/vsc.svg'
+import IconTaiga from '../assets/taiga-io.png'
+import IconDiscord from '../assets/discord.svg'
 
 const technologies = [
     {
@@ -73,6 +76,10 @@ const technologies = [
         name:'npm' 
     },
     {
+        iconImage: IconVSC,
+        name:'VSC' 
+    },
+    {
         iconImage: IconPostman,
         name:'Postman' 
     },
@@ -85,6 +92,10 @@ const technologies = [
         name:'Trello' 
     },
     {
+        iconImage: IconTaiga,
+        name:'Taiga' 
+    },
+    {
         iconImage: IconScrum,
         name:'Scrum' 
     },
@@ -95,6 +106,10 @@ const technologies = [
     {
         iconImage: IconSlack,
         name:'Slack' 
+    },
+    {
+        iconImage: IconDiscord,
+        name:'Discord' 
     },
     {
         iconImage: IconZoom,
