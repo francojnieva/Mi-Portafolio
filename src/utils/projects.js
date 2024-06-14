@@ -30,7 +30,8 @@ export const projects = [
             IconGit,
             IconGitHub,
         ],
-        repo: 'https://github.com/francojnieva/Clon-Spotify.git'
+        repo: 'https://github.com/francojnieva/Clon-Spotify.git',
+        demo: 'https://clon-spotify-web.netlify.app'
     },
     {
         name: 'Royal',
@@ -44,7 +45,8 @@ export const projects = [
             IconGit,
             IconFirebase,
         ],
-        repo: 'https://github.com/francojnieva/Royal-ecommerce.git'
+        repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
+        demo: 'https://royal-relojeria.netlify.app/'
     },
     {
         name: 'MotoFly',
@@ -58,7 +60,8 @@ export const projects = [
             IconExpress,
             IconMongoDB,
         ],
-        repo: 'https://github.com/ErikaCV/proyecto-final.git'
+        repo: 'https://github.com/ErikaCV/proyecto-final.git',
+        demo: 'https://motofly.netlify.app/'
     },
     {
         name: 'Salud Integral Psi',
@@ -72,7 +75,8 @@ export const projects = [
             IconGit,
             IconGitHub,
         ],
-        repo: 'https://github.com/francojnieva/Salud-Integral-Psi.git'
+        repo: 'https://github.com/francojnieva/Salud-Integral-Psi.git',
+        demo: 'https://saludintegral-develop.netlify.app/'
     },
     {
         name: 'Clon Netflix',
@@ -86,6 +90,7 @@ export const projects = [
             IconGit,
             IconJS,
         ],
-        repo: 'https://github.com/francojnieva/Clon-Netflix.git'
+        repo: 'https://github.com/francojnieva/Clon-Netflix.git',
+         demo: 'https://clon-netflix-francojnieva.netlify.app/'
     },
 ]

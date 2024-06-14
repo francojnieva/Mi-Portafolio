@@ -24,9 +24,12 @@ const CardProject = () => {
                                         })
                                     }
                                 </ul>
-                                <div className="card-actions">
+                                <div className="card-actions flex justify-between items-center">
                                     <button className="py-2 px-4 rounded-md text-white font-medium bg-gradient-to-r from-[#00eeffee] to-[#00A2FF] xl:text-base">
                                         <a href={project.repo} target='_blanck'>Repositorio</a>
+                                    </button>
+                                    <button className="py-2 px-4 rounded-md text-white font-medium bg-gradient-to-r from-[#00eeffee] to-[#00A2FF] xl:text-base">
+                                        <a href={project.demo} target='_blanck'>Ver proyecto</a>
                                     </button>
                                 </div>
                             </div>
