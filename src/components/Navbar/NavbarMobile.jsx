@@ -21,7 +21,7 @@ const NavbarMobile = () => {
 						</li>
 						<hr className='w-4 ml-4 border border-[#fff] my-3' />
 						<li className=' flex flex-col text-lg font-bold space-y-1 py-6 text-[#a0a0a0]'>
-							<a href='#home' onClick={() => document.getElementById("my-drawer-4").checked = false}>Inicio</a>
+							<a href='#aboutMe' onClick={() => document.getElementById("my-drawer-4").checked = false}>Inicio</a>
 							<a href='#aboutMe' onClick={() => document.getElementById("my-drawer-4").checked = false}>Sobre mí</a>
 							<a href='#hability' onClick={() => document.getElementById("my-drawer-4").checked = false}>Habilidades y Conocimientos</a>
 							<a href='#projects' onClick={() => document.getElementById("my-drawer-4").checked = false}>Proyectos</a>

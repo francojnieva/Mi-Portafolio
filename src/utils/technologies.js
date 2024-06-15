@@ -61,7 +61,7 @@ const technologies = [
     },
     {
         iconImage: IconMongoDB,
-        name:'Mongo DB' 
+        name:'MongoDB' 
     },
     {
         iconImage: IconHtml,

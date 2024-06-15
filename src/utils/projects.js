@@ -3,9 +3,11 @@ import IconJS from '../assets/js.svg'
 import IconReact from '../assets/react.svg'
 import IconNode from '../assets/node.svg'
 import IconTailwind from '../assets/tailwind.svg'
+import IconBootstrap from '../assets/bootstrap.svg'
 import IconHtml from '../assets/html.svg'
 import IconTrello from '../assets/trello.svg'
 import IconGit from '../assets/git.svg'
+import IconScrum from '../assets/scrum.png'
 import IconGitHub from '../assets/github.svg'
 import IconExpress from '../assets/express.js.svg'
 import IconMongoDB from '../assets/mongo-db.png'
@@ -43,6 +45,7 @@ export const projects = [
             IconReact,
             IconTailwind,
             IconGit,
+            IconGitHub,
             IconFirebase,
         ],
         repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
@@ -59,13 +62,17 @@ export const projects = [
             IconNode,
             IconExpress,
             IconMongoDB,
+            IconGit,
+            IconBootstrap,
+            IconTrello,
+            IconScrum
         ],
         repo: 'https://github.com/ErikaCV/proyecto-final.git',
         demo: 'https://motofly.netlify.app/'
     },
     {
         name: 'Salud Integral Psi',
-        description: 'Desarrollado para un equipo interdisciplinario en el Área de Salud y Salud Mental en el Sistema público y privado. Asesoran y capacitan en Salud Mental, Discapacidad Intelectual y Rehabilitación Psicosocial.',
+        description: 'Desarrollado para un equipo interdisciplinario en el Área de Salud y Salud Mental en el Sistema público y privado. El equipo profesional asesora y capacita en Salud Mental, Discapacidad Intelectual y Rehabilitación Psicosocial.',
         image: ImageSaludIntegral,
         textAlt: 'imagen de portada del proyecto Salud Integral Psi',
         titleImg: 'Salud Integral Psi',
@@ -87,10 +94,11 @@ export const projects = [
         technologies: [
             IconHtml,
             IconTailwind,
-            IconGit,
             IconJS,
+            IconGit,
+            IconGitHub,
         ],
         repo: 'https://github.com/francojnieva/Clon-Netflix.git',
-         demo: 'https://clon-netflix-francojnieva.netlify.app/'
+        demo: 'https://clon-netflix-franco-nieva.vercel.app/'
     },
 ]
