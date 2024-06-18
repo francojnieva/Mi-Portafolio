@@ -21,6 +21,9 @@ import IconZoom from '../assets/zoom.svg'
 import IconVSC from '../assets/vsc.svg'
 import IconTaiga from '../assets/taiga-io.png'
 import IconDiscord from '../assets/discord.svg'
+import IconVercel from '../assets/vercel.png'
+import IconNetlify from '../assets/netlify.png'
+import IconMeet from '../assets/meet.svg'
 
 const technologies = [
     {
@@ -100,6 +103,14 @@ const technologies = [
         name:'Scrum' 
     },
     {
+        iconImage: IconVercel,
+        name:'Vercel' 
+    },
+    {
+        iconImage: IconNetlify,
+        name:'Netlify' 
+    },
+    {
         iconImage: IconFigma,
         name:'Figma' 
     },
@@ -114,6 +125,10 @@ const technologies = [
     {
         iconImage: IconZoom,
         name:'Zoom' 
+    },
+    {
+        iconImage: IconMeet,
+        name:'Meet' 
     },
 ]
 

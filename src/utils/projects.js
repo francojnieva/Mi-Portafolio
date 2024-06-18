@@ -12,6 +12,8 @@ import IconGitHub from '../assets/github.svg'
 import IconExpress from '../assets/express.js.svg'
 import IconMongoDB from '../assets/mongo-db.png'
 import IconFirebase from '../assets/firebase-.svg'
+import IconVercel from '../assets/vercel.png'
+import IconNetlify from '../assets/netlify.png'
 import ImageClonSpotify from '../components/Projects/assets/clon-spotify.png'
 import ImageRoyal from '../components/Projects/assets/royal.png'
 import ImageMotofly from '../components/Projects/assets/motofly.png'
@@ -31,6 +33,8 @@ export const projects = [
             IconTailwind,
             IconGit,
             IconGitHub,
+            IconNetlify,
+
         ],
         repo: 'https://github.com/francojnieva/Clon-Spotify.git',
         demo: 'https://clon-spotify-web.netlify.app'
@@ -47,6 +51,7 @@ export const projects = [
             IconGit,
             IconGitHub,
             IconFirebase,
+            IconNetlify,
         ],
         repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
         demo: 'https://royal-relojeria.netlify.app/'
@@ -81,6 +86,7 @@ export const projects = [
             IconTailwind,
             IconGit,
             IconGitHub,
+            IconNetlify
         ],
         repo: 'https://github.com/francojnieva/Salud-Integral-Psi.git',
         demo: 'https://saludintegral-develop.netlify.app/'
@@ -97,6 +103,7 @@ export const projects = [
             IconJS,
             IconGit,
             IconGitHub,
+            IconVercel
         ],
         repo: 'https://github.com/francojnieva/Clon-Netflix.git',
         demo: 'https://clon-netflix-franco-nieva.vercel.app/'
