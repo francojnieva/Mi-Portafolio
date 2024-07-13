@@ -7,7 +7,10 @@ const NavbarMobile = () => {
 		<nav className='fixed top-0 w-full p-3 bg-[#000] z-50 lg:hidden'>
 			<div className="drawer drawer-end">
 				<input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-				<div className=' flex justify-end pr-2 py-2'>
+				<div className=' flex justify-between items-center pr-2 py-2'>
+					<button className="py-2 px-4 rounded-md text-white font-medium bg-gradient-to-r from-[#00eeffee] to-[#00A2FF] xl:text-base">
+						<a href="mailto:franco97nieva@gmail.com" target='_blanck'>Contáctame</a>
+					</button>
 					<label htmlFor="my-drawer-4"><AiOutlineMenu className='text-white text-[1.6rem]' /></label>
 				</div>
 				<div className={`drawer-side transition-all `}>
