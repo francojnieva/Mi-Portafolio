@@ -33,11 +33,10 @@ export const projects = [
             IconTailwind,
             IconGit,
             IconGitHub,
-            IconNetlify,
-
+            IconVercel,
         ],
         repo: 'https://github.com/francojnieva/Clon-Spotify.git',
-        demo: 'https://clon-spotify-web.netlify.app'
+        demo: 'https://clon-spotify-byfranconieva.vercel.app'
     },
     {
         name: 'Royal',
@@ -51,10 +50,10 @@ export const projects = [
             IconGit,
             IconGitHub,
             IconFirebase,
-            IconNetlify,
+            IconVercel,
         ],
         repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
-        demo: 'https://royal-relojeria.netlify.app/'
+        demo: 'https://royal-relojes.vercel.app/'
     },
     {
         name: 'MotoFly',
