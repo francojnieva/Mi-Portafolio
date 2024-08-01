@@ -74,37 +74,4 @@ export const projects = [
         repo: 'https://github.com/ErikaCV/proyecto-final.git',
         demo: 'https://motofly.netlify.app/'
     },
-    {
-        name: 'Salud Integral Psi',
-        description: 'Desarrollado para un equipo interdisciplinario en el Área de Salud y Salud Mental en el Sistema público y privado. El equipo profesional asesora y capacita en Salud Mental, Discapacidad Intelectual y Rehabilitación Psicosocial.',
-        image: ImageSaludIntegral,
-        textAlt: 'imagen de portada del proyecto Salud Integral Psi',
-        titleImg: 'Salud Integral Psi',
-        technologies: [
-            IconReact,
-            IconTailwind,
-            IconGit,
-            IconGitHub,
-            IconNetlify
-        ],
-        repo: 'https://github.com/francojnieva/Salud-Integral-Psi.git',
-        demo: 'https://saludintegral-develop.netlify.app/'
-    },
-    {
-        name: 'Clon Netflix',
-        description: 'Proyecto realizado con el propósito de recrear la página principal y de inicio de sesión de Netflix con Tailwind CSS. Además de poder visualizar el sitio en dispositivos grandes, tambíen puede verse en dispositivos móviles y tablets.',
-        image: ImageNetflix,
-        textAlt: 'imagen de portada del proyecto Clon Netflix',
-        titleImg: 'Clon Netflix',
-        technologies: [
-            IconHtml,
-            IconTailwind,
-            IconJS,
-            IconGit,
-            IconGitHub,
-            IconVercel
-        ],
-        repo: 'https://github.com/francojnieva/Clon-Netflix.git',
-        demo: 'https://clon-netflix-franco-nieva.vercel.app/'
-    },
 ]
