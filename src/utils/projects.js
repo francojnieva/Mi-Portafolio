@@ -1,27 +1,41 @@
-
-import IconJS from '../assets/js.svg'
 import IconReact from '../assets/react.svg'
 import IconNode from '../assets/node.svg'
 import IconTailwind from '../assets/tailwind.svg'
-import IconBootstrap from '../assets/bootstrap.svg'
-import IconHtml from '../assets/html.svg'
-import IconTrello from '../assets/trello.svg'
 import IconGit from '../assets/git.svg'
-import IconScrum from '../assets/scrum.png'
 import IconGitHub from '../assets/github.svg'
 import IconExpress from '../assets/express.js.svg'
 import IconMongoDB from '../assets/mongo-db.png'
 import IconFirebase from '../assets/firebase-.svg'
 import IconVercel from '../assets/vercel.png'
-import IconNetlify from '../assets/netlify.png'
+import IconTS from '../assets/typescript.svg'
 import ImageClonSpotify from '../components/Projects/assets/clon-spotify.png'
 import ImageRoyal from '../components/Projects/assets/royal.png'
-import ImageMotofly from '../components/Projects/assets/motofly.png'
-import ImageNetflix from '../components/Projects/assets/netflix.png'
-import ImageSaludIntegral from '../components/Projects/assets/salud-integral-psi.png'
+import ImageCabron from '../components/Projects/assets/cabron.png'
+import IconPostman from '../assets/postman.png'
 
 
 export const projects = [
+    {
+        name: 'Cabrón Delivery',
+        description: 'Aplicación diseñada para ofrecer una experiencia intuitiva y ágil. Permite a los usuarios registrarse, gestionar su perfil y realizar pedidos seleccionando su método de pago preferido. Los administradores tienen control total sobre la gestión de productos y usuarios.',
+        image: ImageCabron,
+        textAlt: 'imagen de portada del Cabron delivery',
+        titleImg: 'Cabrón Delivery',
+        technologies: [
+            IconReact,
+            IconTS,
+            IconNode,
+            IconExpress,
+            IconMongoDB,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+            IconPostman,
+            IconVercel,
+        ],
+        repo: 'https://github.com/francojnieva/Cabron-delivery-Frontend.git',
+        demo: 'https://cabrondelivery.vercel.app/'
+    },
     {
         name: 'Clon Spotify Web',
         description: 'Este proyecto es un clon de la versión web de Spotify, desarrollado con React JS y Tailwind CSS. Utiliza la API web proporcionada por Spotify para obtener datos como artistas populares, álbumes populares, canciones y muchos más.',
@@ -54,24 +68,5 @@ export const projects = [
         ],
         repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
         demo: 'https://royal-relojes.vercel.app/'
-    },
-    {
-        name: 'MotoFly',
-        description: 'E-commerce desarrollado por 5 integrantes para el proyecto final en Rolling Code School. Además del stack MERN, usamos Git para controlar versiones de código, Trello para gestionar tareas y SCRUM como marco de trabajo ágil.',
-        image: ImageMotofly,
-        textAlt: 'imagen de portada de MotoFly',
-        titleImg: 'MotoFly',
-        technologies: [
-            IconReact,
-            IconNode,
-            IconExpress,
-            IconMongoDB,
-            IconGit,
-            IconBootstrap,
-            IconTrello,
-            IconScrum
-        ],
-        repo: 'https://github.com/ErikaCV/proyecto-final.git',
-        demo: 'https://motofly.netlify.app/'
     },
 ]

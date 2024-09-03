@@ -24,6 +24,7 @@ import IconDiscord from '../assets/discord.svg'
 import IconVercel from '../assets/vercel.png'
 import IconNetlify from '../assets/netlify.png'
 import IconMeet from '../assets/meet.svg'
+import IconZustand from '../assets/zustand.svg'
 
 const technologies = [
     {
@@ -65,6 +66,10 @@ const technologies = [
     {
         iconImage: IconMongoDB,
         name:'MongoDB' 
+    },
+    {
+        iconImage: IconZustand,
+        name:'Zustand' 
     },
     {
         iconImage: IconHtml,
