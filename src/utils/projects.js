@@ -10,7 +10,7 @@ import IconVercel from '../assets/vercel.png'
 import IconTS from '../assets/typescript.svg'
 import ImageClonSpotify from '../components/Projects/assets/clon-spotify.png'
 import ImageRoyal from '../components/Projects/assets/royal.png'
-import ImageCabron from '../components/Projects/assets/cabron.png'
+import ImageCabronn from '../components/Projects/assets/cabron.png'
 import IconPostman from '../assets/postman.png'
 
 
@@ -18,7 +18,7 @@ export const projects = [
     {
         name: 'Cabrón Delivery',
         description: 'Aplicación diseñada para ofrecer una experiencia intuitiva y ágil. Permite a los usuarios registrarse, gestionar su perfil y realizar pedidos seleccionando su método de pago preferido. Los administradores tienen control total sobre la gestión de productos y usuarios.',
-        image: ImageCabron,
+        image: ImageCabronn,
         textAlt: 'imagen de portada del Cabron delivery',
         titleImg: 'Cabrón Delivery',
         technologies: [
