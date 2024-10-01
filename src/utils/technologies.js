@@ -25,116 +25,127 @@ import IconVercel from '../assets/vercel.png'
 import IconNetlify from '../assets/netlify.png'
 import IconMeet from '../assets/meet.svg'
 import IconZustand from '../assets/zustand.svg'
+import IconAstro from '../assets/astro-js.svg'
 
-const technologies = [
-    {
-        iconImage: IconReact,
-        name: 'React JS'
-    },
-    {
-        iconImage: IconJS,
-        name: 'JavaScript'
-    },
-    {
-        iconImage: IconTailwind,
-        name:'Tailwind CSS'
-    },
-    {
-        iconImage: IconGit,
-        name:'Git'
-    },
-    {
-        iconImage: IconGitHub,
-        name:'GitHub' 
-    },
-    {
-        iconImage: IconNode,
-        name:'Node JS' 
-    },
-    {
-        iconImage: IconTS,
-        name:'TypeScript' 
-    },
-    {
-        iconImage: IconBootstrap,
-        name:'Bootstrap' 
-    },
-    {
-        iconImage: IconExpress,
-        name:'Express JS' 
-    },
-    {
-        iconImage: IconMongoDB,
-        name:'MongoDB' 
-    },
-    {
-        iconImage: IconZustand,
-        name:'Zustand' 
-    },
-    {
-        iconImage: IconHtml,
-        name:'HTML' 
-    },
-    {
-        iconImage: IconCss,
-        name:'CSS' 
-    },
-    {
-        iconImage: IconNpm,
-        name:'npm' 
-    },
-    {
-        iconImage: IconVSC,
-        name:'VSC' 
-    },
-    {
-        iconImage: IconPostman,
-        name:'Postman' 
-    },
-    {
-        iconImage: IconFirebase,
-        name:'Firebase' 
-    },
-    {
-        iconImage: IconTrello,
-        name:'Trello' 
-    },
-    {
-        iconImage: IconTaiga,
-        name:'Taiga' 
-    },
-    {
-        iconImage: IconScrum,
-        name:'Scrum' 
-    },
-    {
-        iconImage: IconVercel,
-        name:'Vercel' 
-    },
-    {
-        iconImage: IconNetlify,
-        name:'Netlify' 
-    },
-    {
-        iconImage: IconFigma,
-        name:'Figma' 
-    },
-    {
-        iconImage: IconSlack,
-        name:'Slack' 
-    },
-    {
-        iconImage: IconDiscord,
-        name:'Discord' 
-    },
-    {
-        iconImage: IconZoom,
-        name:'Zoom' 
-    },
-    {
-        iconImage: IconMeet,
-        name:'Meet' 
-    },
-]
+const technologies = {
+    frontend: [
+        {
+            iconImage: IconHtml,
+            name:'HTML' 
+        },
+        {
+            iconImage: IconCss,
+            name:'CSS' 
+        },
+        {
+            iconImage: IconJS,
+            name: 'JavaScript'
+        },
+        {
+            iconImage: IconTS,
+            name:'TypeScript' 
+        },
+        {
+            iconImage: IconReact,
+            name: 'React JS'
+        },
+        {
+            iconImage: IconAstro,
+            name: 'Astro'
+        },
+        {
+            iconImage: IconBootstrap,
+            name:'Bootstrap' 
+        },
+        {
+            iconImage: IconTailwind,
+            name:'Tailwind CSS'
+        },
+        {
+            iconImage: IconZustand,
+            name:'Zustand' 
+        },
+        {
+            iconImage: IconFigma,
+            name:'Figma' 
+        },
+    ],
+    backend: [
+        {
+            iconImage: IconNode,
+            name:'Node JS' 
+        },
+        {
+            iconImage: IconExpress,
+            name:'Express JS' 
+        },
+        {
+            iconImage: IconMongoDB,
+            name:'MongoDB' 
+        },
+        {
+            iconImage: IconFirebase,
+            name:'Firebase' 
+        },
+    ],
+    others: [
+        {
+            iconImage: IconGit,
+            name:'Git'
+        },
+        {
+            iconImage: IconGitHub,
+            name:'GitHub' 
+        },
+        {
+            iconImage: IconPostman,
+            name:'Postman' 
+        },
+        {
+            iconImage: IconTrello,
+            name:'Trello' 
+        },
+        {
+            iconImage: IconTaiga,
+            name:'Taiga' 
+        },
+        {
+            iconImage: IconScrum,
+            name:'Scrum' 
+        },
+        {
+            iconImage: IconVercel,
+            name:'Vercel' 
+        },
+        {
+            iconImage: IconNetlify,
+            name:'Netlify' 
+        },
+        {
+            iconImage: IconNpm,
+            name:'npm' 
+        },
+        {
+            iconImage: IconVSC,
+            name:'VSC' 
+        },
+        {
+            iconImage: IconSlack,
+            name:'Slack' 
+        },
+        {
+            iconImage: IconDiscord,
+            name:'Discord' 
+        },
+        {
+            iconImage: IconZoom,
+            name:'Zoom' 
+        },
+        {
+            iconImage: IconMeet,
+            name:'Meet' 
+        },
+    ]
+}
 
 export default technologies
