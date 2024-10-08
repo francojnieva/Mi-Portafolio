@@ -20,8 +20,14 @@ const Technologies = () => {
                     ))}
                 />
                 <Card 
-                    techTitle='Otros'
-                    techContent={technologies.others.map((tech, index) => (
+                    techTitle='Herramientas'
+                    techContent={technologies.tools.map((tech, index) => (
+                        <CardTechnology key={index} icon={tech.iconImage} name={tech.name} />
+                    ))}
+                />
+                <Card 
+                    techTitle='Metodologías Ágiles'
+                    techContent={technologies.agileMethods.map((tech, index) => (
                         <CardTechnology key={index} icon={tech.iconImage} name={tech.name} />
                     ))}
                 />

@@ -16,7 +16,6 @@ import IconPostman from '../assets/postman.png'
 import IconFirebase from '../assets/firebase-.svg'
 import IconFigma from '../assets/figma.svg'
 import IconSlack from '../assets/slack.svg'
-import IconNpm from '../assets/npm.svg'
 import IconZoom from '../assets/zoom.svg'
 import IconVSC from '../assets/vsc.svg'
 import IconTaiga from '../assets/taiga-io.png'
@@ -26,6 +25,7 @@ import IconNetlify from '../assets/netlify.png'
 import IconMeet from '../assets/meet.svg'
 import IconZustand from '../assets/zustand.svg'
 import IconAstro from '../assets/astro-js.svg'
+import IconKanban from '../assets/kanban.svg'
 
 const technologies = {
     frontend: [
@@ -54,12 +54,12 @@ const technologies = {
             name: 'Astro'
         },
         {
-            iconImage: IconBootstrap,
-            name:'Bootstrap' 
-        },
-        {
             iconImage: IconTailwind,
             name:'Tailwind CSS'
+        },
+        {
+            iconImage: IconBootstrap,
+            name:'Bootstrap' 
         },
         {
             iconImage: IconZustand,
@@ -88,7 +88,17 @@ const technologies = {
             name:'Firebase' 
         },
     ],
-    others: [
+    agileMethods: [
+        {
+            iconImage: IconScrum,
+            name:'Scrum' 
+        },
+        {
+            iconImage: IconKanban,
+            name:'Kanban' 
+        },
+    ],
+    tools: [
         {
             iconImage: IconGit,
             name:'Git'
@@ -109,10 +119,7 @@ const technologies = {
             iconImage: IconTaiga,
             name:'Taiga' 
         },
-        {
-            iconImage: IconScrum,
-            name:'Scrum' 
-        },
+        
         {
             iconImage: IconVercel,
             name:'Vercel' 
@@ -120,10 +127,6 @@ const technologies = {
         {
             iconImage: IconNetlify,
             name:'Netlify' 
-        },
-        {
-            iconImage: IconNpm,
-            name:'npm' 
         },
         {
             iconImage: IconVSC,

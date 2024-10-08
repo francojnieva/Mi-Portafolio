@@ -17,7 +17,7 @@ import IconPostman from '../assets/postman.png'
 export const projects = [
     {
         name: 'Cabrón Delivery',
-        description: 'Aplicación diseñada para ofrecer una experiencia intuitiva y ágil. Permite a los usuarios registrarse, gestionar su perfil y realizar pedidos seleccionando su método de pago preferido. Los administradores tienen control total sobre la gestión de productos y usuarios.',
+        description: 'Aplicación diseñada para ofrecer una experiencia intuitiva y ágil. Permite a los usuarios registrarse, gestionar perfil y realizar pedidos seleccionando su método de pago preferido. Los administradores tienen control total sobre la gestión de productos y usuarios.',
         image: ImageCabronn,
         textAlt: 'imagen de portada del Cabron delivery',
         titleImg: 'Cabrón Delivery',
