@@ -12,6 +12,8 @@ import ImageClonSpotify from '../components/Projects/assets/clon-spotify.png'
 import ImageRoyal from '../components/Projects/assets/royal.png'
 import ImageCabronn from '../components/Projects/assets/cabron.png'
 import IconPostman from '../assets/postman.png'
+import ImageAIC from '../components/Projects/assets/aic.png'
+import IconAstro from '../assets/astro-js.svg'
 
 
 export const projects = [
@@ -68,5 +70,20 @@ export const projects = [
         ],
         repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
         demo: 'https://royal-relojes.vercel.app/'
+    },
+    {
+        name: 'Asociación Iberoamericana de Coaching',
+        description:'Esta página web fue desarrollada para la Asociación Iberoamericana de Coaching con el propósito de presentar la misión, visión, valores y las actividades que se llevan a cabo, así también el poder facilitar el contacto con los usuarios.',
+        image: ImageAIC,
+        textAlt: 'imagen de portada de AIC',
+        titleImg: 'Asociación Iberoamericana de Coaching',
+        technologies: [
+            IconAstro,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/asociacioniberoamericanadecoaching.git',
+        demo: 'https://asociacióniberoamericanadecoaching.com.ar'
     },
 ]
