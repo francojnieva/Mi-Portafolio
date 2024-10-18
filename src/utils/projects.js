@@ -14,6 +14,7 @@ import ImageCabronn from '../components/Projects/assets/cabron.png'
 import IconPostman from '../assets/postman.png'
 import ImageAIC from '../components/Projects/assets/aic.png'
 import IconAstro from '../assets/astro-js.svg'
+import IconFigma from '../assets/figma.svg'
 
 
 export const projects = [
@@ -80,6 +81,7 @@ export const projects = [
         technologies: [
             IconAstro,
             IconTailwind,
+            IconFigma,
             IconGit,
             IconGitHub,
         ],
