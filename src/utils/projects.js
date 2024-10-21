@@ -12,6 +12,7 @@ import ImageClonSpotify from '../components/Projects/assets/clon-spotify.png'
 import ImageRoyal from '../components/Projects/assets/royal.png'
 import ImageCabronn from '../components/Projects/assets/cabron.png'
 import IconPostman from '../assets/postman.png'
+import IconNetlify from '../assets/netlify.png'
 import ImageAIC from '../components/Projects/assets/aic.png'
 import IconAstro from '../assets/astro-js.svg'
 import IconFigma from '../assets/figma.svg'
@@ -84,8 +85,9 @@ export const projects = [
             IconFigma,
             IconGit,
             IconGitHub,
+            IconNetlify,
         ],
         repo: 'https://github.com/francojnieva/asociacioniberoamericanadecoaching.git',
-        demo: 'https://asociacióniberoamericanadecoaching.com.ar'
+        demo: 'https://asociacioniberoamericanadecoaching.com.ar'
     },
 ]
