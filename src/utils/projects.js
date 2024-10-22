@@ -14,8 +14,12 @@ import ImageCabronn from '../components/Projects/assets/cabron.png'
 import IconPostman from '../assets/postman.png'
 import IconNetlify from '../assets/netlify.png'
 import ImageAIC from '../components/Projects/assets/aic.png'
+import ImagePSI from '../components/Projects/assets/saludintegral.png'
 import IconAstro from '../assets/astro-js.svg'
 import IconFigma from '../assets/figma.svg'
+import IconHTML from '../assets/html.svg'
+import IconCSS from '../assets/css.svg'
+import IconJS from '../assets/js.svg'
 
 
 export const projects = [
@@ -89,5 +93,23 @@ export const projects = [
         ],
         repo: 'https://github.com/francojnieva/asociacioniberoamericanadecoaching.git',
         demo: 'https://asociacioniberoamericanadecoaching.com.ar'
+    },
+    {
+        name: 'Salud Integral Psi',
+        description:'Desarrollado para un equipo interdisciplinario en el área de Salud y Salud Mental, con el objetivo de brindar asesoramiento y capacitación en Salud Mental, Discapacidad Intelectual y Rehabilitación Psicosocial a instituciones, empresas, profesionales y técnicos.',
+        image: ImagePSI,
+        textAlt: 'imagen de portada de Salud Integral Psi',
+        titleImg: 'Salud Integral Psi',
+        technologies: [
+            IconJS,
+            IconHTML,
+            IconCSS,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+            IconNetlify,
+        ],
+        repo: 'https://github.com/francojnieva/saludintegralpsi.git',
+        demo: 'https://saludintegralpsi.com.ar'
     },
 ]
