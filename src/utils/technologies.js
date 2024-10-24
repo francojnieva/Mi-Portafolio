@@ -64,11 +64,7 @@ const technologies = {
         {
             iconImage: IconZustand,
             name:'Zustand' 
-        },
-        {
-            iconImage: IconFigma,
-            name:'Figma' 
-        },
+        }
     ],
     backend: [
         {
@@ -110,6 +106,10 @@ const technologies = {
         {
             iconImage: IconPostman,
             name:'Postman' 
+        },
+        {
+            iconImage: IconFigma,
+            name:'Figma' 
         },
         {
             iconImage: IconTrello,
