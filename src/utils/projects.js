@@ -20,9 +20,60 @@ import IconFigma from '../assets/figma.svg'
 import IconHTML from '../assets/html.svg'
 import IconCSS from '../assets/css.svg'
 import IconJS from '../assets/js.svg'
+import ImageEquilibra from '../assets/equilibra-salud.png'
+import ImageBodyCenter from '../assets/bodycenter.png'
+import ImageInox from '../assets/inox-diseño.png'
 
 
 export const projects = [
+    {
+        name: 'Body Center Nutrición',
+        description: 'Proyecto desarrollado para un centro integral que tiene como objetivo mejorar la calidad de vida de las personas, tanto física como mentalmente. El centro ofrece una variedad de servicios y planes completos para una nutrición saludable.',
+        image: ImageBodyCenter,
+        textAlt: 'imagen de portada de Body Center Nutrición',
+        titleImg: 'Body Center Nutrición',
+        technologies: [
+            IconAstro,
+            IconJS,
+            IconTailwind,
+            IconGitHub,
+            IconVercel,
+        ],
+        repo: 'https://github.com/francojnieva/Body-Center-Nutricion.git',
+        demo: 'https://bodycenternutricion.com.ar/'
+    },
+    {
+        name: 'Inox-Diseño todo en vidrio',
+        description: 'Página web desarrollada para una empresa con más de 20 años de experiencia en el rubro del vidrio, acero y aluminio. Trabajan en equipo para ofrecer soluciones innovadoras, garantizando la más alta calidad y precisión en cada proyecto.',
+        image: ImageInox,
+        textAlt: 'imagen de portada de Inox-Diseño',
+        titleImg: 'Inox-Diseño',
+        technologies: [
+            IconAstro,
+            IconJS,
+            IconTailwind,
+            IconGitHub,
+            IconVercel,
+        ],
+        repo: 'https://github.com/francojnieva/InoxDise-o.git',
+        demo: 'https://inoxdiseñotodoenvidrio.com.ar/'
+    },
+    {
+        name: 'Equilibra Salud - Internación Domiciliaria',
+        description: 'Proyecto desarrollado para un equipo de profesionales que se dedican a tratar los pilares importantes de la salud: El cuidado, la prevención y la asistencia de personas de todas las edades en su domicilio.',
+        image: ImageEquilibra,
+        textAlt: 'imagen de portada de Equilibra Salud',
+        titleImg: 'Equilibra Salud',
+        technologies: [
+            IconAstro,
+            IconJS,
+            IconTailwind,
+            IconGitHub,
+            IconVercel,
+        ],
+        repo: 'https://github.com/francojnieva/Equilibra-Salud.git',
+        demo: 'https://equilibra-salud.com.ar/'
+    },
     {
         name: 'Cabrón Delivery',
         description: 'Aplicación diseñada para ofrecer una experiencia intuitiva y ágil. Permite a los usuarios registrarse, gestionar perfil y realizar pedidos seleccionando su método de pago preferido. Los administradores tienen control total sobre la gestión de productos y usuarios.',
