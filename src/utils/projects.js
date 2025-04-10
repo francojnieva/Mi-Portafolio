@@ -43,22 +43,6 @@ export const projects = [
         demo: 'https://bodycenternutricion.com.ar/'
     },
     {
-        name: 'Inox-Diseño todo en vidrio',
-        description: 'Página web desarrollada para una empresa con más de 20 años de experiencia en el rubro del vidrio, acero y aluminio. Trabajan en equipo para ofrecer soluciones innovadoras, garantizando la más alta calidad y precisión en cada proyecto.',
-        image: ImageInox,
-        textAlt: 'imagen de portada de Inox-Diseño',
-        titleImg: 'Inox-Diseño',
-        technologies: [
-            IconAstro,
-            IconJS,
-            IconTailwind,
-            IconGitHub,
-            IconVercel,
-        ],
-        repo: 'https://github.com/francojnieva/InoxDise-o.git',
-        demo: 'https://inoxdiseñotodoenvidrio.com.ar/'
-    },
-    {
         name: 'Equilibra Salud - Internación Domiciliaria',
         description: 'Proyecto desarrollado para un equipo de profesionales que se dedican a tratar los pilares importantes de la salud: El cuidado, la prevención y la asistencia de personas de todas las edades en su domicilio.',
         image: ImageEquilibra,
