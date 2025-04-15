@@ -22,7 +22,6 @@ import IconCSS from '../assets/css.svg'
 import IconJS from '../assets/js.svg'
 import ImageEquilibra from '../assets/equilibra-salud.png'
 import ImageBodyCenter from '../assets/bodycenter.png'
-import ImageInox from '../assets/inox-diseño.png'
 
 
 export const projects = [
