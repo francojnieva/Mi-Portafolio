@@ -17,14 +17,30 @@ import ImageAIC from '../components/Projects/assets/aic.png'
 import ImagePSI from '../components/Projects/assets/saludintegral.png'
 import IconAstro from '../assets/astro-js.svg'
 import IconFigma from '../assets/figma.svg'
-import IconHTML from '../assets/html.svg'
-import IconCSS from '../assets/css.svg'
 import IconJS from '../assets/js.svg'
 import ImageEquilibra from '../assets/equilibra-salud.png'
 import ImageBodyCenter from '../assets/bodycenter.png'
+import ImageInox from '../assets/inox.png'
 
 
 export const projects = [
+    {
+        name: 'Inox-Diseño todo en vidrio',
+        description: 'Página web desarrollada para una empresa con más de 20 años de experiencia en el rubro del vidrio, acero y aluminio. Trabajan en equipo para ofrecer soluciones innovadoras, garantizando la más alta calidad y precisión en cada proyecto.',
+        image: ImageInox,
+        textAlt: 'imagen de portada de Inox-Diseño',
+        titleImg: 'Inox-Diseño',
+        technologies: [
+            IconAstro,
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+            IconVercel,
+        ],
+        repo: 'https://github.com/francojnieva/InoxDise-o.git',
+        demo: 'https://inoxdiseñotodoenvidrio.com.ar/'
+    },
     {
         name: 'Body Center Nutrición',
         description: 'Proyecto desarrollado para un centro integral que tiene como objetivo mejorar la calidad de vida de las personas, tanto física como mentalmente. El centro ofrece una variedad de servicios y planes completos para una nutrición saludable.',
@@ -35,6 +51,7 @@ export const projects = [
             IconAstro,
             IconJS,
             IconTailwind,
+            IconGit,
             IconGitHub,
             IconVercel,
         ],
@@ -52,6 +69,7 @@ export const projects = [
             IconJS,
             IconTailwind,
             IconGitHub,
+            IconGit,
             IconVercel,
         ],
         repo: 'https://github.com/francojnieva/Equilibra-Salud.git',
@@ -135,9 +153,8 @@ export const projects = [
         textAlt: 'imagen de portada de Salud Integral Psi',
         titleImg: 'Salud Integral Psi',
         technologies: [
+            IconAstro,
             IconJS,
-            IconHTML,
-            IconCSS,
             IconTailwind,
             IconGit,
             IconGitHub,
