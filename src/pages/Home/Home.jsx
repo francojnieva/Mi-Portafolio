@@ -10,7 +10,7 @@ import LogoWpp from '../../assets/wppIcon.svg'
 const Home = () => {
 	return (
 		<section>
-			<a href='https://wa.me/5491144754699' target='_blank' className='fixed z-50 bottom-16 right-4 xl:w-16 xl:right-6'>
+			<a href='https://wa.me/5493865629703' target='_blank' className='fixed z-50 bottom-16 right-4 xl:w-16 xl:right-6'>
 				<img className="w-12 xl:w-16" src={LogoWpp} alt="Logo Whatsapp" title="Abrir chat de WhatsApp" />
 			</a>
 			<NavbarMobile />
