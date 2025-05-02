@@ -14,16 +14,33 @@ import ImageCabronn from '../components/Projects/assets/cabron.png'
 import IconPostman from '../assets/postman.png'
 import IconNetlify from '../assets/netlify.png'
 import ImageAIC from '../components/Projects/assets/aic.png'
-import ImagePSI from '../components/Projects/assets/saludintegral.png'
 import IconAstro from '../assets/astro-js.svg'
 import IconFigma from '../assets/figma.svg'
 import IconJS from '../assets/js.svg'
 import ImageEquilibra from '../assets/equilibra-salud.png'
 import ImageBodyCenter from '../assets/bodycenter.png'
 import ImageInox from '../assets/inox.png'
+import ImagePSI from '../assets/saludintegralpsi.png'
 
 
 export const projects = [
+    {
+        name: 'Salud Integral Psi',
+        description:'Proyecto desarrollado para un equipo interdisciplinario con más de 20 años de experiencia en los sectores público y privado, dedicados a la asesoría y capacitación en el diseño, implementación y gestión de dispositivos de rehabilitación psicosocial.',
+        image: ImagePSI,
+        textAlt: 'imagen de portada de Salud Integral Psi',
+        titleImg: 'Salud Integral Psi',
+        technologies: [
+            IconReact,
+            IconNode,
+            IconExpress,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/saludintegralpsi.git',
+        demo: 'https://saludintegralpsi.com.ar'
+    },
     {
         name: 'Inox-Diseño todo en vidrio',
         description: 'Página web desarrollada para una empresa con más de 20 años de experiencia en el rubro del vidrio, acero y aluminio. Trabajan en equipo para ofrecer soluciones innovadoras, garantizando la más alta calidad y precisión en cada proyecto.',
@@ -74,6 +91,23 @@ export const projects = [
         ],
         repo: 'https://github.com/francojnieva/Equilibra-Salud.git',
         demo: 'https://equilibra-salud.com.ar/'
+    },
+    {
+        name: 'Asociación Iberoamericana de Coaching',
+        description:'Esta página web fue desarrollada para la Asociación Iberoamericana de Coaching con el propósito de presentar la misión, visión, valores y las actividades que se llevan a cabo, así también el poder facilitar el contacto con los usuarios.',
+        image: ImageAIC,
+        textAlt: 'imagen de portada de AIC',
+        titleImg: 'Asociación Iberoamericana de Coaching',
+        technologies: [
+            IconAstro,
+            IconTailwind,
+            IconFigma,
+            IconGit,
+            IconGitHub,
+            IconNetlify,
+        ],
+        repo: 'https://github.com/francojnieva/asociacioniberoamericanadecoaching.git',
+        demo: 'https://asociacioniberoamericanadecoaching.com.ar'
     },
     {
         name: 'Cabrón Delivery',
@@ -129,38 +163,5 @@ export const projects = [
         repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
         demo: 'https://royal-relojes.vercel.app/'
     },
-    {
-        name: 'Asociación Iberoamericana de Coaching',
-        description:'Esta página web fue desarrollada para la Asociación Iberoamericana de Coaching con el propósito de presentar la misión, visión, valores y las actividades que se llevan a cabo, así también el poder facilitar el contacto con los usuarios.',
-        image: ImageAIC,
-        textAlt: 'imagen de portada de AIC',
-        titleImg: 'Asociación Iberoamericana de Coaching',
-        technologies: [
-            IconAstro,
-            IconTailwind,
-            IconFigma,
-            IconGit,
-            IconGitHub,
-            IconNetlify,
-        ],
-        repo: 'https://github.com/francojnieva/asociacioniberoamericanadecoaching.git',
-        demo: 'https://asociacioniberoamericanadecoaching.com.ar'
-    },
-    {
-        name: 'Salud Integral Psi',
-        description:'Desarrollado para un equipo interdisciplinario en el área de Salud y Salud Mental, con el objetivo de brindar asesoramiento y capacitación en Salud Mental, Discapacidad Intelectual y Rehabilitación Psicosocial a instituciones, empresas, profesionales y técnicos.',
-        image: ImagePSI,
-        textAlt: 'imagen de portada de Salud Integral Psi',
-        titleImg: 'Salud Integral Psi',
-        technologies: [
-            IconAstro,
-            IconJS,
-            IconTailwind,
-            IconGit,
-            IconGitHub,
-            IconNetlify,
-        ],
-        repo: 'https://github.com/francojnieva/saludintegralpsi.git',
-        demo: 'https://saludintegralpsi.com.ar'
-    },
+    
 ]
