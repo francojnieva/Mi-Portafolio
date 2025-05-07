@@ -10,10 +10,11 @@ const Footer = () => {
 				<h6 className="text-lg text-[#fff] mb-4">Página</h6>
 				<section className=" space-y-12">
 					<nav className=' flex flex-col space-y-6 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-8'>
-						<a href='#home' className="hover:text-[#fff] text-base transition-all">Inicio</a>
-						<a href='#aboutMe' className="hover:text-[#fff] text-base transition-all">Sobre mí</a>
-						<a href='#hability' className="hover:text-[#fff] text-base transition-all">Habilidades y Conocimientos</a>
-						<a href='#projects' className="hover:text-[#fff] text-base transition-all">Proyectos</a>
+						<a href='#sobre-mi' className="hover:text-[#fff] text-base transition-all">Inicio</a>
+						<a href='#sobre-mi' className="hover:text-[#fff] text-base transition-all">Sobre mí</a>
+						<a href='#habilidades-conocimientos' className="hover:text-[#fff] text-base transition-all">Habilidades y Conocimientos</a>
+						<a href='#proyectos' className="hover:text-[#fff] text-base transition-all">Proyectos</a>
+						<a href='#testimonios' className="hover:text-[#fff] text-base transition-all">Testimonios</a>
 					</nav>
 					<nav className=" flex items-baseline space-x-4 text-xl lg:text-2xl">
 						<a className='hover:text-[#fff] transition duration-500 ease-out' href='https://www.linkedin.com/in/francojnieva/' target='_blanck'><FaLinkedin /></a>

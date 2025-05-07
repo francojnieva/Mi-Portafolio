@@ -6,6 +6,7 @@ import Technologies from '../../components/Technologies/Technologies'
 import { Welcome } from '../../components/Welcome/Welcome'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import LogoWpp from '../../assets/wppIcon.svg'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 const Home = () => {
 	return (
@@ -19,6 +20,7 @@ const Home = () => {
 			<AboutMe />
 			<Technologies />
 			<Projects />
+			<Testimonials />
 			<Footer />
 		</section>
 	)

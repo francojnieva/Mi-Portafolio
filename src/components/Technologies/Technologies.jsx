@@ -4,7 +4,7 @@ import Card from './Card'
 
 const Technologies = () => {
     return (
-        <section id='hability' className='px-6 pt-20 lg:pt-0 lg:w-[85%] lg:mx-auto lg:px-0'>
+        <section id='habilidades-conocimientos' className='px-6 pt-20 lg:pt-0 lg:w-[85%] lg:mx-auto lg:px-0'>
             <h2 className='text-4xl font-bold text-center text-[#a8aaaa] py-3 lg:text-5xl'>Habilidades y Conocimientos</h2>
             <section className='py-8 space-y-10 lg:py-12'>
                 <Card 

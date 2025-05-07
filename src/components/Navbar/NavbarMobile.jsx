@@ -10,11 +10,11 @@ const NavbarMobile = () => {
 					<button className="py-2 px-4 rounded-md text-white font-medium bg-gradient-to-r from-[#00eeffee] to-[#00A2FF] xl:text-base">
 						<a href="mailto:franco97nieva@gmail.com" target='_blanck'>Contáctame</a>
 					</button>
-					<label htmlFor="my-drawer-4"><AiOutlineMenu className='text-white text-[1.6rem]' /></label>
+					<label htmlFor="my-drawer-4"><AiOutlineMenu className='text-white text-3xl' /></label>
 				</div>
 				<div className={`drawer-side transition-all `}>
 					<label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-					<ul className="menu p-5 w-full min-h-full bg-black text-white">
+					<ul className="menu p-5 w-full min-h-full bg-black text-white sm:w-96">
 						<div className=' flex justify-end'>
 							<AiOutlineClose onClick={() => document.getElementById("my-drawer-4").checked = false} className=' text-[1.7rem]' />
 						</div>
@@ -22,11 +22,12 @@ const NavbarMobile = () => {
 							<a>Menú</a>
 						</li>
 						<hr className='w-4 ml-4 border border-[#fff] my-3' />
-						<li className=' flex flex-col text-lg font-bold space-y-1 py-6 text-[#a0a0a0]'>
-							<a href='#aboutMe' onClick={() => document.getElementById("my-drawer-4").checked = false}>Inicio</a>
-							<a href='#aboutMe' onClick={() => document.getElementById("my-drawer-4").checked = false}>Sobre mí</a>
-							<a href='#hability' onClick={() => document.getElementById("my-drawer-4").checked = false}>Habilidades y Conocimientos</a>
-							<a href='#projects' onClick={() => document.getElementById("my-drawer-4").checked = false}>Proyectos</a>
+						<li className=' flex flex-col text-lg font-bold space-y-6 py-6 text-[#a0a0a0]'>
+							<a href='#sobre-mi' onClick={() => document.getElementById("my-drawer-4").checked = false}>Inicio</a>
+							<a href='#sobre-mi' onClick={() => document.getElementById("my-drawer-4").checked = false}>Sobre mí</a>
+							<a href='#habilidades-conocimientos' onClick={() => document.getElementById("my-drawer-4").checked = false}>Habilidades y Conocimientos</a>
+							<a href='#proyectos' onClick={() => document.getElementById("my-drawer-4").checked = false}>Proyectos</a>
+							<a href='#testimonios' onClick={() => document.getElementById("my-drawer-4").checked = false}>Testimonios</a>
 						</li>
 					</ul>
 				</div>

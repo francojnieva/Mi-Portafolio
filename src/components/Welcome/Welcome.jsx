@@ -12,7 +12,7 @@ export const Welcome = () => {
 					duration: 0.8,
 					ease: "easeInOut",
 				}}
-				id='aboutMe'
+				id='sobre-mi'
 				className="pt-64 bg-gradient-to-br from-[#b8c4d3] to-[#e1edf3] py-4 bg-clip-text text-center text-5xl font-medium tracking-tight text-transparent md:text-7xl"
 			>
 				Bienvenido a mi Portafolio
