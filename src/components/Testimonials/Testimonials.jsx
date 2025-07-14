@@ -7,6 +7,11 @@ const Testimonials = () => {
             <h2 className="text-4xl font-bold text-center text-[#a8aaaa] py-3 lg:text-5xl">Testimonios</h2>
             <section className="py-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 lg:py-12">
                 <Card
+                    name="Pilar Fariña"
+                    occupation="Directora de Centro de salud integral | Psicóloga Clínica | Coordinadora de talleres"
+                    description="Recomiendo a Franco! Profesional responsable y serio. Me armó la página de mi centro de salud integral con dedicación y valor agregado. Estoy muy conforme con su labor. "
+                />
+                <Card
                     name="Demián Abbott"
                     occupation="Paid Media Analyst | Digital Marketing Analyst"
                     description="Franco desarrolló dos sitios web dinámicos que le encomendé, los cuales funcionan a la perfección. Ante mis pedidos de actualizaciones del sitio, siempre se muestra dispuesto y resuelve en tiempo y forma. Estoy totalmente conforme con sus servicios, los cuales, sin dudas, seguir utilizando. ¡Lo recomiendo!"

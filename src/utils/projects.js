@@ -21,9 +21,43 @@ import ImageEquilibra from '../assets/equilibra-salud.png'
 import ImageBodyCenter from '../assets/bodycenter.png'
 import ImageInox from '../assets/inox.png'
 import ImagePSI from '../assets/saludintegralpsi.png'
+import ImageHashtag from '../assets/hashtag.png'
+import ImageCentro from '../assets/centroespacioescucha.png'
 
 
 export const projects = [
+    {
+        name: 'Centro Espacio Escucha',
+        description:'Desarrollado para un equipo de profesionales de la salud que cuentan con un espacio de salud integral orientado al bienestar emocional y corporal. Desarrollé este proyecto cuidando cada detalle con diseño totalmente responsive y optimizado para todos los dispositivos.',
+        image: ImageCentro,
+        textAlt: 'imagen de portada de Centro Espacio Escucha',
+        titleImg: 'Centro Espacio Escucha',
+        technologies: [
+            IconAstro,
+            IconTailwind,
+            IconNode,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/centro-espacio-escucha.git',
+        demo: 'https://centroespacioescucha.com.ar/'
+    },
+    {
+        name: 'Hashtag Productora',
+        description:'Página web desarrollada una agencia de marketing digital, creación de contenido, branding, merchandicing y producción de eventos. Me encargué del desarrollo cuidando cada detalle para que la web fuera fiel a la estética planteada y sea totalmente adaptable y optimizada para todos los dispositivos.',
+        image: ImageHashtag,
+        textAlt: 'imagen de portada de Hashtag Productora',
+        titleImg: 'Hashtag Productora',
+        technologies: [
+            IconAstro,
+            IconTailwind,
+            IconNode,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/sasha-hashtag-productora.git',
+        demo: 'https://hashtag-productora.vercel.app/'
+    },
     {
         name: 'Salud Integral Psi',
         description:'Proyecto desarrollado para un equipo interdisciplinario con más de 20 años de experiencia en los sectores público y privado, dedicados a la asesoría y capacitación en el diseño, implementación y gestión de dispositivos de rehabilitación psicosocial.',
@@ -110,27 +144,6 @@ export const projects = [
         demo: 'https://asociacioniberoamericanadecoaching.com.ar'
     },
     {
-        name: 'Cabrón Delivery',
-        description: 'Aplicación diseñada para ofrecer una experiencia intuitiva y ágil. Permite a los usuarios registrarse, gestionar perfil y realizar pedidos seleccionando su método de pago preferido. Los administradores tienen control total sobre la gestión de productos y usuarios.',
-        image: ImageCabronn,
-        textAlt: 'imagen de portada del Cabron delivery',
-        titleImg: 'Cabrón Delivery',
-        technologies: [
-            IconReact,
-            IconTS,
-            IconNode,
-            IconExpress,
-            IconMongoDB,
-            IconTailwind,
-            IconGit,
-            IconGitHub,
-            IconPostman,
-            IconVercel,
-        ],
-        repo: 'https://github.com/francojnieva/Cabron-delivery-Frontend.git',
-        demo: 'https://cabrondelivery.vercel.app/'
-    },
-    {
         name: 'Clon Spotify Web',
         description: 'Este proyecto es un clon de la versión web de Spotify, desarrollado con React JS y Tailwind CSS. Utiliza la API web proporcionada por Spotify para obtener datos como artistas populares, álbumes populares, canciones y muchos más.',
         image: ImageClonSpotify,
@@ -146,22 +159,4 @@ export const projects = [
         repo: 'https://github.com/francojnieva/Clon-Spotify.git',
         demo: 'https://clon-spotify-byfranconieva.vercel.app'
     },
-    {
-        name: 'Royal',
-        description:'Proyecto final realizado en el curso de React JS en CoderHouse. Este e-commerce muestra una gran variedad de relojes. Utiliza Firebase como base de datos para almacenar y recuperar información sobre los productos. Proyecto destacado de la comisión.',
-        image: ImageRoyal,
-        textAlt: 'imagen de portada de royal',
-        titleImg: 'Royal',
-        technologies: [
-            IconReact,
-            IconTailwind,
-            IconGit,
-            IconGitHub,
-            IconFirebase,
-            IconVercel,
-        ],
-        repo: 'https://github.com/francojnieva/Royal-ecommerce.git',
-        demo: 'https://royal-relojes.vercel.app/'
-    },
-    
 ]
