@@ -7,6 +7,11 @@ const Testimonials = () => {
             <h2 className="text-4xl font-bold text-center text-[#a8aaaa] py-3 lg:text-5xl">Testimonios</h2>
             <section className="py-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 lg:py-12">
                 <Card
+                    name="Sofía Soltermann"
+                    occupation="Arquitecta interiorista"
+                    description="Desde el primer encuentro, Franco entendió lo que necesitaba: una web que transmita la esencia de mi marca, sea funcional y a la vez visualmente atractiva. Fue claro, paciente, proactivo y resolutivo durante todo el proceso. Además de tener muy buen criterio estético, aportó ideas valiosas para mejorar la experiencia del sitio y siempre cumplió con los tiempos acordados. Recomiendo a Franco con total confianza para cualquier proyecto digital. Es un gran profesional y una persona muy comprometida con lo que hace."
+                />
+                <Card
                     name="Pilar Fariña"
                     occupation="Directora de Centro de salud integral | Psicóloga Clínica | Coordinadora de talleres"
                     description="Recomiendo a Franco! Profesional responsable y serio. Me armó la página de mi centro de salud integral con dedicación y valor agregado. Estoy muy conforme con su labor. "

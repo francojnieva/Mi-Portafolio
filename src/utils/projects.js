@@ -23,9 +23,25 @@ import ImageInox from '../assets/inox.png'
 import ImagePSI from '../assets/saludintegralpsi.png'
 import ImageHashtag from '../assets/hashtag.png'
 import ImageCentro from '../assets/centroespacioescucha.png'
+import ImageKIO from '../assets/kio.png'
 
 
 export const projects = [
+    {
+        name: 'KIO arquitectura',
+        description:'Desarrollo del sitio web de KIO arquitectura, un estudio de arquitectura e interiorismo. El proyecto incluyó el diseño e implementación de una landing page, optimizada para dispositivos móviles, tablets y de escritorio, con foco en la presentación de proyectos, contacto directo y gestión de identidad visual.',
+        image: ImageKIO,
+        textAlt: 'imagen de portada de KIO arquitectura',
+        titleImg: 'KIO arquitectura',
+        technologies: [
+            IconAstro,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/kio-arquitectura.git',
+        demo: 'https://kioarquitectura.com.ar/'
+    },
     {
         name: 'Centro Espacio Escucha',
         description:'Desarrollado para un equipo de profesionales de la salud que cuentan con un espacio de salud integral orientado al bienestar emocional y corporal. Desarrollé este proyecto cuidando cada detalle con diseño totalmente responsive y optimizado para todos los dispositivos.',
