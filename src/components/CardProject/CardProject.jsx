@@ -7,7 +7,7 @@ const CardProject = () => {
             {
                 projects && projects.map((project, index) => {
                     return (
-                        <article key={index} className="card card-compact text-[#a0a0a0] bg-[#0a0a0a]">
+                        <article key={index} className="card card-compact text-[#a0a0a0] bg-[#131313]">
                             <figure><img src={project.image} alt={project.textAlt} title={project.titleImg} /></figure>
                             <div className="card-body">
                                 <h2 className="card-title text-[#fff]">{project.name}</h2>

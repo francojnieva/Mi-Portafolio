@@ -24,9 +24,25 @@ import ImagePSI from '../assets/saludintegralpsi.png'
 import ImageHashtag from '../assets/hashtag.png'
 import ImageCentro from '../assets/centroespacioescucha.png'
 import ImageKIO from '../assets/kio.png'
+import ImagePaico from '../assets/grupopaico.png'
 
 
 export const projects = [
+    {
+        name: 'Grupo Paico',
+        description:'Desarrollado para un grupo de profesionales formados en Planificación y Diseño del Paisaje,  con más de 20 años en ejercicio proyectando y ejecutando obras en distintas escalas. Página web desarrollada con diseño totalmente responsivo y optimizado para todos los dispositivos.',
+        image: ImagePaico,
+        textAlt: 'imagen de portada de Grupo Paico',
+        titleImg: 'Grupo Paico',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/grupopaico.git',
+        demo: 'https://grupopaico.com.ar/'
+    },
     {
         name: 'KIO arquitectura',
         description:'Desarrollo del sitio web de KIO arquitectura, un estudio de arquitectura e interiorismo. El proyecto incluyó el diseño e implementación de una landing page, optimizada para dispositivos móviles, tablets y de escritorio, con foco en la presentación de proyectos, contacto directo y gestión de identidad visual.',

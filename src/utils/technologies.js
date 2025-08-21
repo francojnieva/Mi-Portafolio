@@ -79,10 +79,6 @@ const technologies = {
             iconImage: IconMongoDB,
             name:'MongoDB' 
         },
-        {
-            iconImage: IconFirebase,
-            name:'Firebase' 
-        },
     ],
     agileMethods: [
         {
