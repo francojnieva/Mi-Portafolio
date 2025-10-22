@@ -25,9 +25,77 @@ import ImageHashtag from '../assets/hashtag.png'
 import ImageCentro from '../assets/centroespacioescucha.png'
 import ImageKIO from '../assets/kio.png'
 import ImagePaico from '../assets/grupopaico.png'
+import ImageFontana from '../assets/estudio-fontana.png'
+import ImageCuan from '../assets/cuan.png'
+import ImageMq7 from '../assets/mq7.png'
+import ImageMoretti from '../assets/estudio-moretti.png'
 
 
 export const projects = [
+    {
+        name: 'Estudio Jurídico Inmobiliario Moretti',
+        description:'Plataforma web orientada a la gestión y publicación de propiedades en venta y alquiler. Diseñada para ofrecer una experiencia ágil para administradores y visitantes, con una interfaz clara y adaptable a distintos dispositivos.',
+        image: ImageMoretti,
+        textAlt: 'imagen de portada de Estudio Jurídico Inmobiliario Moretti',
+        titleImg: 'Estudio Jurídico Inmobiliario Moretti',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconNode,
+            IconExpress,
+            IconMongoDB,
+            IconPostman,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/estudio-moretti.git',
+        demo: 'https://estudio-moretti.com.ar/'
+    },
+    {
+        name: 'Mq7 Marketing social',
+        description:'Desarrollé este proyecto usando React y TailwindCSS, cuidando cada detalle para que la web tenga un enfoque atractivo, profesional y que refleje el espíritu canchero de las redes sociales. Cuenta con un diseño responsive y optimizado para todos los dispositivos.',
+        image: ImageMq7,
+        textAlt: 'imagen de portada de Mq7 Marketing social',
+        titleImg: 'Mq7 Marketing social',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/mq7-marketing.git',
+        demo: 'https://mq7marketingsocial.com/'
+    },
+    {
+        name: 'CUAN arquitectura',
+        description:'Página web desarrollada para CUAN arquitectura. El proyecto cuenta con diseño adaptable a distintos dispositivos y una interfaz diseñada según el manual de marca del estudio. Proyecto desarrollado con React y TailwindCSS',
+        image: ImageCuan,
+        textAlt: 'imagen de portada de CUAN arquitectura',
+        titleImg: 'CUAN arquitectura',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/cuanarquitectura.git',
+        demo: 'https://cuanarquitectura.com.ar/'
+    },
+    {
+        name: 'Estudio Fontana Gonzalez y Asoc.',
+        description:'Proyecto desarrollado para el Estudio Fontana González y Asoc. Cuenta con un diseño totalmente responsive, optimizado y adapatable a distintos dispositivos como móviles, tablets, laptops y computadoras de escritorio.',
+        image: ImageFontana,
+        textAlt: 'imagen de portada de Estudio Fontana Gonzalez y Asoc',
+        titleImg: 'Estudio Fontana Gonzalez y Asoc',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/estudio-fontana-gonzalez.git',
+        demo: 'https://estudiofontanagonzalez.com.ar/'
+    },
     {
         name: 'Grupo Paico',
         description:'Desarrollado para un grupo de profesionales formados en Planificación y Diseño del Paisaje,  con más de 20 años en ejercicio proyectando y ejecutando obras en distintas escalas. Página web desarrollada con diseño totalmente responsivo y optimizado para todos los dispositivos.',
