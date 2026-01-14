@@ -29,9 +29,25 @@ import ImageFontana from '../assets/estudio-fontana.png'
 import ImageCuan from '../assets/cuan.png'
 import ImageMq7 from '../assets/mq7.png'
 import ImageMoretti from '../assets/estudio-moretti.png'
+import ImageIkigai from '../assets/ikigai.png'
 
 
 export const projects = [
+    {
+        name: 'Ikigai arquitectura',
+        description:'Página web desarrollada para el Ikigai arquitectura. El proyecto cuenta con diseño adaptable a distintos dispositivos y una interfaz diseñada según el manual de marca del estudio. Proyecto desarrollado con React y TailwindCSS',
+        image: ImageIkigai,
+        textAlt: 'imagen de portada de CUAN arquitectura',
+        titleImg: 'CUAN arquitectura',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/ikigai-arquitectura.git',
+        demo: 'https://ikigaiarquitectura.com.ar/'
+    },
     {
         name: 'Estudio Jurídico Inmobiliario Moretti',
         description:'Plataforma web orientada a la gestión y publicación de propiedades en venta y alquiler. Diseñada para ofrecer una experiencia ágil para administradores y visitantes, con una interfaz clara y adaptable a distintos dispositivos.',
