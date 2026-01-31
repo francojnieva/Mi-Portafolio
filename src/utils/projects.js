@@ -30,9 +30,25 @@ import ImageCuan from '../assets/cuan.png'
 import ImageMq7 from '../assets/mq7.png'
 import ImageMoretti from '../assets/estudio-moretti.png'
 import ImageIkigai from '../assets/ikigai.png'
+import ImageLapachita from '../assets/lapachita.png'
 
 
 export const projects = [
+    {
+        name: 'La Pachita | Salón de Eventos',
+        description:'Página web para La Pachita, salón de eventos en Santa Fe, Arg.. El proyecto se basó en un diseño visual previamente definido por el cliente, el cual fue implementado cuidando fidelidad estética y rendimiento. Adaptable a distintos dispositivos.',
+        image: ImageLapachita,
+        textAlt: 'imagen de portada de La Pachita',
+        titleImg: 'La Pachita',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/lapachita.git',
+        demo: 'https://lapachitaeventos.com.ar/'
+    },
     {
         name: 'Ikigai arquitectura',
         description:'Página web desarrollada para el Ikigai arquitectura. El proyecto cuenta con diseño adaptable a distintos dispositivos y una interfaz diseñada según el manual de marca del estudio. Proyecto desarrollado con React y TailwindCSS',
@@ -50,7 +66,7 @@ export const projects = [
     },
     {
         name: 'Estudio Jurídico Inmobiliario Moretti',
-        description:'Plataforma web orientada a la gestión y publicación de propiedades en venta y alquiler. Diseñada para ofrecer una experiencia ágil para administradores y visitantes, con una interfaz clara y adaptable a distintos dispositivos.',
+        description:'Plataforma web orientada a la gestión y publicación de propiedades en venta y alquiler. Diseñada para ofrecer una experiencia ágil para administradores y visitantes, adaptable a distintos dispositivos.',
         image: ImageMoretti,
         textAlt: 'imagen de portada de Estudio Jurídico Inmobiliario Moretti',
         titleImg: 'Estudio Jurídico Inmobiliario Moretti',
