@@ -31,9 +31,25 @@ import ImageMq7 from '../assets/mq7.png'
 import ImageMoretti from '../assets/estudio-moretti.png'
 import ImageIkigai from '../assets/ikigai.png'
 import ImageLapachita from '../assets/lapachita.png'
+import ImageDraleila from '../assets/dra.leila.png'
 
 
 export const projects = [
+    {
+        name: 'Dra. Leila Sánchez',
+        description:'Proyecto desarrollado para la Dra. Leila Sánchez. Cuenta con un diseño totalmente responsive, optimizado y adapatable a distintos dispositivos como móviles, tablets, laptops y computadoras de escritorio.',
+        image: ImageDraleila,
+        textAlt: 'imagen de portada de la Dra. Leila Sánchez',
+        titleImg: 'Dra. Leila Sánchez',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/dra-leila-sanchez.git',
+        demo: 'https://draleilasanchez.com.ar/'
+    },
     {
         name: 'La Pachita | Salón de Eventos',
         description:'Página web para La Pachita, salón de eventos en Santa Fe, Arg.. El proyecto se basó en un diseño visual previamente definido por el cliente, el cual fue implementado cuidando fidelidad estética y rendimiento. Adaptable a distintos dispositivos.',
