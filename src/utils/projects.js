@@ -32,12 +32,28 @@ import ImageMoretti from '../assets/estudio-moretti.png'
 import ImageIkigai from '../assets/ikigai.png'
 import ImageLapachita from '../assets/lapachita.png'
 import ImageDraleila from '../assets/dra.leila.png'
+import ImageLaVeloz from '../assets/laveloz.png'
 
 
 export const projects = [
     {
+        name: 'La Veloz Pintura de Obra',
+        description:'Página web desarrollada para la empresa La Veloz Pintura. Cuenta con un diseño totalmente responsive, optimizado y adaptable a distintos dispositivos tanto móviles, tablets, laptops y computadoras de escritorio.',
+        image: ImageLaVeloz,
+        textAlt: 'imagen de portada de La Veloz Pintura',
+        titleImg: 'La Veloz Pintura de Obra',
+        technologies: [
+            IconReact,
+            IconTailwind,
+            IconGit,
+            IconGitHub,
+        ],
+        repo: 'https://github.com/francojnieva/lavelozpintura.git',
+        demo: 'https://lavelozpintura.com.ar/'
+    },
+    {
         name: 'Dra. Leila Sánchez',
-        description:'Proyecto desarrollado para la Dra. Leila Sánchez. Cuenta con un diseño totalmente responsive, optimizado y adapatable a distintos dispositivos como móviles, tablets, laptops y computadoras de escritorio.',
+        description:'Proyecto desarrollado para la Dra. Leila Sánchez. Cuenta con un diseño totalmente responsive, optimizado y adaptable a distintos dispositivos como móviles, tablets, laptops y computadoras de escritorio.',
         image: ImageDraleila,
         textAlt: 'imagen de portada de la Dra. Leila Sánchez',
         titleImg: 'Dra. Leila Sánchez',
